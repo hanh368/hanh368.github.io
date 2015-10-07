@@ -2,7 +2,13 @@
     color:yellow;
 }
 #second{
-    color:#FF0066;
+    color:#94FFDB;
+}
+#third{
+    color:#FFCCCC;
+}
+#firth{
+    color:#D1A3FF;
 }
 #intro {
   color: #66143D;
@@ -13,12 +19,15 @@
 margin-left: px;
 background-color:none;
 }
- 
+#intro:hover{
+    color:#99FF99;
+}
 .normal {
-  color: #999999;
-  font-family: Arial, sans-serif;
-  font-size: 15px;
-  margin-left: 60px;
+  color: #666699;
+  font-family:
+  font-size: 31px;
+  margin-left: 20px;
+  margin-top:100px;
 }
  
 .indent {
@@ -33,22 +42,44 @@ h1{color:blue}
     background-color:#CCFF99
     ;
 }
-#haeri{ 
+p#haeri:hover{
+    background-color:#006699;
+    width:700px;
+    transition-property:width;
+    transition-duration:10s;
+    
+}
+p#haeri{ 
     background-color: #CC99FF;
     width: 100px;
     height: 100px;
     border-radius: 60px;
 }
 
-.boo{
+p.boo{
    background-color: #CC99FF;
-   position:;
+   position:relative;
     width: 100px;
     height: 100px;
     border-radius: 60px;
     margin-top: 50px;
     margin-left: 170px;
+    -webkit-animation: myfirst 10s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 7s infinite;
+    animation-direction: alternate;
+    animation-iteration-count: infinite
+
 }
+@-webkit-keyframes myfirst {
+    0%   {background: #CC99FF; left: 0px; top: 0px;}
+    25%  {background: #FF6666; left: 200px; top: 0px;}
+    50%  {background: #99CCFF; left: 200px; top: 200px;}
+    75%  {background: #C2FFAD; left: 0px; top: 200px;}
+    100% {background: #FFA319; left: 0px; top: 0px;}
+}
+
+   
 #ha{
     background-color:#99FFEB;
     width:290px;
@@ -65,3 +96,25 @@ h1{color:blue}
     top:-100px;
     transform:rotate(490deg);
 }
+#me{
+    background-color:#75A3FF;
+    width:;
+}
+/*@-webkit-keyframes .boo {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+}*/
+#boy{
+    background-color: #FF5C33;
+    width:0px;
+    height:0px;
+    border-left:500px solid transparent;
+    border-right:10px solid transparent;
+    border-top: 100px solid;
+    transform:rotate(680deg);
+    top:300px
+    right:200px;
+  }
