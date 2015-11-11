@@ -1,52 +1,17 @@
-<body>, html {
-  font-family: Arial, sans-serif;
-  height: 100%;
-  overflow: hidden;
-}
+var clicked = false;
 
-.gradient {
-	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #00A3EF 100%);
-	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #00A3EF 100%);
-	background-image: -o-linear-gradient(top, #FFFFFF 0%, #00A3EF 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #00A3EF));
-	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #00A3EF 100%);
-	background-image: linear-gradient(to bottom, #FFFFFF 0%, #00A3EF 100%);
+$("pirate").remove();
+$("body").addClass("gradient");
+$("#toggle").click(function() {
+    if (clicked ==false) {
+$("#status").html("GO").css("background-color","green");
+$("#toggle").html("STOP");
+clicked = true;
+} else {
+    $("#status").html("STOP");
+$("#status").css("background-color","RED");
+$("#toggle").html("START");
+clicked = false;
+    
 }
-
-.wrapper {
-  width: 800px;
-  margin: 0 auto;
-}
-
-#status {
-	width: 200px;
-	height: 200px;
-	font-size: 40px;
-	line-height: 200px;
-	text-align: center;
-	background-color: red;
-	color: white;
-	position: fixed;
-	top: 20px;
-	right: 20px;
-}
-
-#cat {
-	position: fixed;
-	bottom: 20px;
-	left: 20px;
-	display: none;
-}
-
-#pirate {
-	position: fixed;
-	top:40px;
-	left: 0;
-}
-
-#keys {
-	border:4px solid black;
-	padding:20px;
-	background-color:white;
-	width: 400px;
-}
+});
