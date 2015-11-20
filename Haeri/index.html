@@ -1,44 +1,17 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-<style> 
-img {
-    width: 200px;
-    height: 200px;
-    background-color: #FF8FB8;
-    position: relative;
-    -webkit-animation-name: example; /* Chrome, Safari, Opera */
-    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
-    -webkit-animation-iteration-count: infinite; /* Chrome, Safari, Opera */
-    animation-name: example;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
-/* Chrome, Safari, Opera */
-@-webkit-keyframes example {
-    0%   {background-color:#FF8FB8; left:0px; top:0px;}
-    25%  {background-color:#FBFF8F; left:500px; top:0px;}
-    50%  {background-color:#8FB0FF; left:500px; top:500px;}
-    75%  {background-color:#8FFFC5; left:0px; top:500px;}
-    100% {background-color:#FF8FB8; left:0px; top:0px;}
-}
-
-/* Standard syntax */
-@keyframes example {
-    0%   {background-color:#FF8FB8; left:0px; top:0px;}
-    25%  {background-color:#FBFF8F; left:500px; top:0px;}
-    50%  {background-color:#8FB0FF; left:500px; top:500px;}
-    75%  {background-color:#8FFFC5; left:0px; top:500px;}
-    100% {background-color:#FF8FB8; left:0px; top:0px;}
-}
-</style>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     
-    <img src= "doghead.png" > 
-
-
+    <div class="images">
+    <img id= "dog" src= "doghead.png" > 
+    <img id="kitty"  scr= "kitty.png">
+    </div>
+    
+<script src="../jquery_exercise/js/jquery.js"></script>
+<script src= "script.js"></script>
 </body>
 </html>
 
