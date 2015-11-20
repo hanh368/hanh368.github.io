@@ -1,3 +1,4 @@
+<script type="text/javascript" src="myscript.js"></script>
 // console.log("hello world");
 // console.log("****************");
 

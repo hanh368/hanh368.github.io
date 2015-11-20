@@ -1,12 +1,5 @@
-$("body").css("background-color","blue")
+$("body").css("background-color","blue");
 
-function myFunction() {
-    //do stuff
-    console.log("hello world");
-}
+$("h1").html ("Welcome to jQuery");
 
-function addNums(num1, num2){
-    var sum = num1+num2;
-    console.log(sum);
-}
-
+$("h1").
