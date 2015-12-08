@@ -1,5 +1,2 @@
-$("#dog").click(function() {
-    console.log("ahhhhh");
-  $("#kitty").show();
-  $("#dog").hide();
-});
+var audio = new Audio('dogs.mp3');
+audio.play();
