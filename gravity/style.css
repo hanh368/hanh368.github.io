@@ -1,0 +1,162 @@
+#haeri{
+    background-color: gray;
+    width: 700px;
+    height: 350px;
+    border-radius: 50px;
+    margin-top: 200px;
+    margin-left: 100px;
+    transform: rotate(30deg);
+}
+
+#intro {
+    color:#ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size:50px;
+    font-weight:bold;
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align:center;
+}
+
+#spaceman {
+    width: 300px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left: 1200px;
+}
+
+#line {
+    width: 420px;
+    height: 420px;
+    position:absolute;
+    top: 525px;
+    left: 810px;
+}
+
+.outer {
+    width: 600px;
+    height: 600px;
+    background-color:black;
+    animation-name: example;
+    animation-duration: 8s;
+animation-iteration-count: infinite; 
+position: absolute;
+top: 2100px;
+left: 220px;
+  animation-timing-function: linear;
+}
+
+.planet {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  background-color: red;
+}
+/* Standard syntax */
+@keyframes example {
+    0% {
+transform: rotate(0deg);}
+
+100% {
+transform: rotate(360deg);}
+
+}
+
+.outer2 {
+    width:900px;
+    height:900px;
+    background-color:black;
+    animation-name: example;
+    animation-duration: 12s;
+animation-iteration-count: infinite; 
+position: absolute;
+top: 1800px;
+left: 100px;
+  animation-timing-function: linear;
+}
+
+.planet2 {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: purple;
+}
+/* Standard syntax */
+@keyframes example {
+    0% {
+transform: rotate(0deg);}
+
+100% {
+transform: rotate(360deg);}
+
+}
+
+.outer3 {
+    width:400px;
+    height:400px;
+    background-color:black;
+    animation-name: example;
+    animation-duration: 12s;
+animation-iteration-count: infinite; 
+position: absolute;
+top: 2200px;
+left: 300px;
+  animation-timing-function: linear;
+}
+
+.planet3 {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: blue;
+}
+/* Standard syntax */
+@keyframes example {
+    0% {
+transform: rotate(0deg);}
+
+100% {
+transform: rotate(360deg);}
+
+}
+
+.outer4 {
+    width:150px;
+    height:150px;
+    background-color:black;
+    animation-name: example;
+    animation-duration: 10s;
+animation-iteration-count: infinite; 
+position: absolute;
+top: 2380px;
+left: 360px;
+  animation-timing-function: linear;
+}
+
+.planet4 {
+  position: absolute;
+  top:0;
+  left:0;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: white;
+}
+/* Standard syntax */
+@keyframes example {
+    0% {
+transform: rotate(0deg);}
+
+100% {
+transform: rotate(360deg);}
+
+}
